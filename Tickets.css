@@ -1,0 +1,28 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background: black;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+}
+.nav navbar-nav{
+    align-items: center;
+}
+
+.index{
+    background: black;
+}
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
