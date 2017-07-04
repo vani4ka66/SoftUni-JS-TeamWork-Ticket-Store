@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Tickets.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"
+            integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+            crossorigin="anonymous"></script>
+
+    <style>
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 70%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Culture & Music</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class=""><a href="#"></a></li>
+            <li class=""><a href="#"></a></li>
+            <li class=""><a href="#"></a></li>
+            <li class=""><a href="#"></a></li>
+
+
+            <li class=""><a href="#">Начало</a></li>
+
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Събития <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="Concerts.html">Концерти</a></li>
+                    <li><a href="Culture.html">Култура</a></li>
+                    <li><a href="Sport.html">Спорт</a></li>
+                    <li><a href="Others.html">Други</a></li>
+
+                </ul>
+            </li>
+            <li class=""><a href="#">Артисти</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Зали <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">София</a></li>
+                    <li><a href="#">Пловдив</a></li>
+                    <li><a href="#">Варна</a></li>
+                    <li><a href="#">Бургас</a></li>
+                    <li><a href="#">Велико Търново</a></li>
+                    <li><a href="#">Русе</a></li>
+                    <li><a href="#">Слънчев бряг</a></li>
+                    <li><a href="#">Созопол</a></li>
+
+                </ul>
+            </li>
+            <li class=""><a href="#">Филхармония</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Моят профил</a> </li>
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+        <form class="navbar-form navbar-left">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</nav>
+<h2 align="center" style="color: white">Билети за повече от 20 000 събития всяка година</h2>
+<div class="container">
+    <br>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item">
+                <img src="http://www.microbytecorp.com/bsf-images/Sting.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="http://zagoranews.bg/wp-content/uploads/2017/06/barca-beroe_artwork.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="http://www.monitor.bg/media/articles/2016/18/31884/Lili_LebedPoster-1.jpg" alt="">
+            </div>
+
+            <div class="item active">
+                <img src="https://i2.offnews.bg/events/2017/05/10/655144/phpmw7xv3_800x*.jpg" alt="">
+            </div>
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<br>
+<br>
+<br>
+
+<div style="font-style: italic">
+<h1 align="center" style="color: white">Топ Събития</h1>
+</div>
+<hr>
+<div>
+    <div class="row text-center">
+        <div class="col-sm-4">
+            <figure class="product-category">
+                <a href="">
+                    <img src="http://s3.amazonaws.com/factmag-images/wp-content/uploads/2017/02/depechemode-616x440.jpg" alt="cakes" width="300" height="300"/>
+                </a>
+                <a href="#">
+                    <figcaption>
+                        <h3>Depeche Mode</h3>
+                    </figcaption>
+                </a>
+            </figure>
+
+        </div>
+        <div class="col-sm-4">
+            <figure class="product-category">
+                <a href="#">
+                    <img src="http://bg.content.eventim.com/static/uploaded/bg/dpxj_200_200.jpg" alt="cakes" width="300" height="300"/>
+                </a>
+
+                <a href="#">
+                    <figcaption>
+                        <h3>The Voice of Godsmack</h3>
+                        <h3>SULLY ERNA</h3>
+
+                    </figcaption>
+                </a>
+            </figure>
+        </div>
+
+        <div class="col-sm-4">
+            <figure class="product-category">
+                <a href="#">
+                    <img src="http://www.ellingtonschool.org/wp-content/uploads/2014/01/Sting-2014-Poster-v2-791x1024.jpg" alt="New York" width="300" height="300">
+                </a>
+
+                <a href="#">
+                    <figcaption>
+                        <h3>Sting</h3>
+                    </figcaption>
+                </a>
+            </figure>
+        </div>
+    </div>
+</div>
+<br>
+<div>
+    <div class="row text-center">
+        <div class="col-sm-4">
+            <figure class="product-category">
+                <a href="#">
+                    <img src="http://www.monitor.bg/media/articles/2016/18/31884/Lili_LebedPoster-1.jpg" alt="New York" width="300" height="300">
+                </a>
+
+                <a href="#">
+                    <figcaption>
+                        <h3>Лили Иванова</h3>
+                    </figcaption>
+                </a>
+            </figure>
+
+        </div>
+        <div class="col-sm-4">
+            <figure class="product-category">
+                <a href="#">
+                    <img src="http://media.metacast.eu/pictures/06_2016/mS5Wl7Z1Qk3VFcNaPx0r-13119.jpg" alt="cakes" width="300" height="300"/>
+                </a>
+                <a href="">
+                    <figcaption>
+                        <h3>Графа</h3>
+                    </figcaption>
+                </a>
+            </figure>
+
+        </div>
+        <div class="col-sm-4">
+            <figure class="product-category">
+                <a href="#">
+                    <img src="http://m.ticketpro.bg/public/2a/2a/57/1200758_749594_OFICIALEN_PLAKAT_SPONSORI_MEDIA_WEB.jpg" alt="cakes" width="300" height="300"/>
+                </a>
+
+                <a href="#">
+                    <figcaption>
+                        <h3>Мария Илиева</h3>
+                    </figcaption>
+                </a>
+            </figure>
+
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div style="font-style: italic">
+<h1 align="center" style="color: white">Културен афиш</h1>
+</div>
+<hr>
+
+<div>
+    <div class="row text-center">
+        <div class="col-sm-4">
+            <figure class="product-category">
+                <a href="#">
+                    <img src="https://s-media-cache-ak0.pinimg.com/originals/96/e9/9d/96e99da96b48951d15d75da28b348f59.jpg" alt="cakes" width="300" height="300"/>
+                </a>
+
+                <a href="#">
+                    <figcaption>
+                        <h3>Травиата</h3>
+                    </figcaption>
+                </a>
+            </figure>
+
+        </div>
+        <div class="col-sm-4">
+            <figure class="product-category">
+                <a href="#">
+                    <img src="http://podmosta.bg/wp-content/uploads/2017/06/18034386_978065485662118_2534912639020293917_n.jpg" alt="New York" width="300" height="300">
+                </a>
+
+                <a href="#">
+                    <figcaption>
+                        <h3>Бохеми</h3>
+                    </figcaption>
+                </a>
+            </figure>
+        </div>
+
+        <div class="col-sm-4">
+            <figure class="product-category">
+                <a href="#">
+                    <img src="http://theatre.art.bg/img/photos/BIG14849441601MAISTORI%20(4).JPG" alt="New York" width="300" height="300">
+                </a>
+
+                <a href="#">
+                    <figcaption>
+                        <h3>Майстори</h3>
+                    </figcaption>
+                </a>
+            </figure>
+        </div>
+    </div>
+</div>
+
+<br>
+<div>
+    <div class="row text-center">
+        <div class="col-sm-4">
+            <figure class="product-category">
+                <a href="#">
+                    <img src="https://static1.squarespace.com/static/586d88b746c3c40a1c57bb3d/t/58ceb88cd1758e5d6d87c9b7/1489942699050/MoFest2017take1_sm.png" alt="cakes" width="300" height="300"/>
+                </a>
+
+                <a href="/#">
+                    <figcaption>
+                        <h3>Моцартови празници</h3>
+                    </figcaption>
+                </a>
+            </figure>
+
+        </div>
+        <div class="col-sm-4">
+            <figure class="product-category">
+                <a href="#">
+                    <img src="http://theatre.art.bg/img/photos/INDEX14810216131mnimiq.jpg" alt="New York" width="300" height="300">
+                </a>
+
+                <a href="#">
+                    <figcaption>
+                        <h3>Мнимият болен</h3>
+                    </figcaption>
+                </a>
+            </figure>
+
+        </div>
+        <div class="col-sm-4">
+            <figure class="product-category">
+                <a href="#">
+                    <img src="http://theatre.art.bg/img/photos/BIG14920595741kasapnicata.jpg" alt="New York" width="300" height="300">
+                </a>
+
+                <a href="#">
+                    <figcaption>
+                        <h3>Богът на касапницата</h3>
+                    </figcaption>
+                </a>
+            </figure>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<footer class="index" style="color: white">
+    <br>
+    <br>
+    <br>
+    <div>
+        <div class="">
+            <div class="col-sm-2"><a href="#" ><h4></h4></a></div>
+            <div class="col-sm-2"><a href="#" ><h4>За нас</h4></a></div>
+            <div class="col-sm-2"><a href="#" ><h4>Клиенти</h4></a></div>
+            <div class="col-sm-2"><a href="#" ><h4>Условия за ползване</h4></a></div>
+            <div class="col-sm-2"><a href="#" ><h4>Още Culture & Music</h4></a></div>
+        </div>
+
+    </div>
+    <br>
+    <br>
+</footer>
+</body>
+</html>
