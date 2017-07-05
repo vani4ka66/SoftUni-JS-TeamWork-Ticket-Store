@@ -62,7 +62,7 @@
             <li class=""><a href="#">Филхармония</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Моят профил</a> </li>
+            <li><a href="ManageProfil.html">Моят профил</a> </li>
             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
             <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
         </ul>
@@ -80,6 +80,7 @@
 </nav>
 <h2 align="center" style="color: white">Билети за повече от 20 000 събития всяка година</h2>
 <div class="container">
+    <a href="PurchaseTickets.html">
     <br>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -120,8 +121,10 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+    </a>
 </div>
 <br>
+
 <br>
 <br>
 
@@ -133,10 +136,10 @@
     <div class="row text-center">
         <div class="col-sm-4">
             <figure class="product-category">
-                <a href="#">
+                <a href="PurchaseTickets.html">
                     <img src="http://s3.amazonaws.com/factmag-images/wp-content/uploads/2017/02/depechemode-616x440.jpg" alt="cakes" width="300" height="300"/>
                 </a>
-                <a href="#">
+                <a href="">
                     <figcaption>
                         <h3>Depeche Mode</h3>
                     </figcaption>
@@ -340,4 +343,12 @@
     <br>
 </footer>
 </body>
+<script>
+
+window.onload = function () {
+    $('.product-category>a').attr('href','PurchaseTickets.html');
+}
+
+</script>
+
 </html>
