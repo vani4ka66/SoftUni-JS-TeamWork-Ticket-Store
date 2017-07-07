@@ -14,6 +14,7 @@ vani4ka66 /Vania Dimitrova/:
 
 
 NaskoGalchev / Atanas Galchev
+
 •	Purchase tickets
 •	Manage their profile
 •	View details about an event (information, location, date, price and availability of tickets)
