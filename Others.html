@@ -52,7 +52,6 @@
 
                 </ul>
             </li>
-            <li class=""><a href="#">Филхармония</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Моят профил</a> </li>
@@ -60,14 +59,17 @@
             <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
         </ul>
         <form class="navbar-form navbar-left">
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search">
-                <div class="input-group-btn">
-                    <button class="btn btn-default" type="submit">
-                        <i class="glyphicon glyphicon-search"></i>
-                    </button>
-                </div>
-            </div>
+            <form id="f1" name="f1" action="javascript:void(0)" onsubmit="searchpage()" >
+                <input id="t1" type="text" name="t1" />
+                <select name="category" id="category">
+                    <option>Всички категории</option>
+                    <option value="name">Концерти</option>
+                    <option value="author">Култура</option>
+                    <option value="year">Спорт</option>
+                    <option value="publisher">Спорт</option>
+                </select>
+                <input id="button" type="submit" value="SEARCH" name="b1" onclick="searchpage()" />
+            </form>
         </form>
     </div>
 </nav>

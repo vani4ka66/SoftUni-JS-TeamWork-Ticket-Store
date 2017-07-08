@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b47888c4-0b5a-4992-8a91-a671c09d9a12" name="Default" comment="">
+    <list default="true" id="b47888c4-0b5a-4992-8a91-a671c09d9a12" name="Default" comment="Created Upcoming Events page.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,16 +17,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="40" column="81" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ManageProfil.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ManageProfil.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,17 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Concerts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Concerts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="32" column="81" lean-forward="false" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpcomingEvents.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UpcomingEvents.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UpcomingEvents.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="146">
@@ -87,23 +67,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Concerts-details.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Concerts-details.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="32" column="81" lean-forward="false" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
-              <folding />
-            </state>
+      <file leaf-file-name="Admin View - Manage Available Tickets.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin View - Manage Available Tickets.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Concerts-table.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Concerts-table.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="32" column="81" lean-forward="false" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
-              <folding />
-            </state>
+      <file leaf-file-name="Admin View - Events Dashboard.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin View - Events Dashboard.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Admin View - Edit Event.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin View - Edit Event.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Admin View - Add New Event.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Admin View - Add New Event.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -287,7 +275,7 @@
       <option name="presentableId" value="Default" />
       <updated>1499281073062</updated>
       <workItem from="1499281076038" duration="756000" />
-      <workItem from="1499371648280" duration="1935000" />
+      <workItem from="1499371648280" duration="3710000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed HOME button">
       <created>1499372089535</created>
@@ -303,15 +291,21 @@
       <option name="project" value="LOCAL" />
       <updated>1499373579013</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created Upcoming Events page.">
+      <created>1499373596342</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1499373596342</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2691000" />
+    <option name="totallyTimeSpent" value="4466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -449,6 +443,26 @@
           <caret line="32" column="81" lean-forward="false" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin View - Manage Available Tickets.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin View - Events Dashboard.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin View - Edit Event.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin View - Add New Event.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
