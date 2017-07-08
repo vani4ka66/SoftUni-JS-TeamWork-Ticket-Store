@@ -23,4 +23,5 @@ ValentinaZhivkova /SoftUni user name: valkis_s/
 
 Created Upcoming Events page.
 Created input searching form for browsing events by category.
+Upcoming events and search by category with Marvel app.
 
