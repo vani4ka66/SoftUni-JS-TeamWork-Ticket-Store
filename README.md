@@ -18,3 +18,9 @@ NaskoGalchev / Atanas Galchev
 •	Purchase tickets
 •	Manage their profile
 •	View details about an event (information, location, date, price and availability of tickets)
+
+ValentinaZhivkova /SoftUni user name: valkis_s/
+
+Created Upcoming Events page.
+Created input searching form for browsing events by category.
+
